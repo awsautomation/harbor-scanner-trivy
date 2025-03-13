@@ -1,6 +1,3 @@
-[![GitHub Release][release-img]][release]
-[![Go Report Card][report-card-img]][report-card]
-[![License][license-img]][license]
 
 # Harbor Scanner Adapter for Trivy
 
