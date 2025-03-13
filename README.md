@@ -149,27 +149,3 @@ section in the Docker container networking documentation for more details.
 Trivy DB downloads from GitHub are subject to [rate limiting][gh-rate-limit]. Make sure that the Trivy DB is mounted
 and cached in the `/home/scanner/.cache/trivy/db/trivy.db` path. If, for any reason, it's not enough you can set the
 value of the `SCANNER_TRIVY_GITHUB_TOKEN` environment variable (authenticated requests get a higher rate limit).
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull
-requests.
-
----
-Harbor Scanner Adapter for Trivy is an [Aqua Security](https://aquasec.com) open source project.  
-Learn about our open source work and portfolio [here](https://www.aquasec.com/products/open-source-projects/).
-
-[release-img]: https://img.shields.io/github/release/goharbor/harbor-scanner-trivy.svg?logo=github
-[release]: https://github.com/goharbor/harbor-scanner-trivy/releases
-[report-card-img]: https://goreportcard.com/badge/github.com/goharbor/harbor-scanner-trivy
-[report-card]: https://goreportcard.com/report/github.com/goharbor/harbor-scanner-trivy
-[license-img]: https://img.shields.io/github/license/goharbor/harbor-scanner-trivy.svg
-[license]: https://github.com/goharbor/harbor-scanner-trivy/blob/main/LICENSE
-
-[Harbor]: https://github.com/goharbor/harbor
-[Harbor Helm chart]: https://github.com/goharbor/harbor-helm
-[Trivy]: https://github.com/aquasecurity/trivy
-[Trivy DB]: https://github.com/aquasecurity/trivy-db
-[harbor-pluggable-scanners]: https://github.com/goharbor/community/blob/master/proposals/pluggable-image-vulnerability-scanning_proposal.md
-[gh-rate-limit]: https://github.com/aquasecurity/trivy#github-rate-limiting
-[docker-dns]: https://docs.docker.com/config/containers/container-networking/#dns-services
